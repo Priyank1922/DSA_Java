@@ -1,4 +1,4 @@
-package Day_14_Array;
+package Day14_Array;
 
 class IndexReturn {
 	static void Search() {

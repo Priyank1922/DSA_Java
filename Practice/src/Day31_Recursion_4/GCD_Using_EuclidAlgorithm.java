@@ -1,4 +1,4 @@
-package Day_31_Recursion_4;
+package Day31_Recursion_4;
 
 import java.util.Scanner;
 
