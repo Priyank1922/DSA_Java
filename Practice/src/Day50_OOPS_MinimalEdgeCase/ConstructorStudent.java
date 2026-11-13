@@ -1,4 +1,4 @@
-package Day50_OOPS;
+package Day50_OOPS_MinimalEdgeCase;
 
 public class ConstructorStudent {
 	String name;

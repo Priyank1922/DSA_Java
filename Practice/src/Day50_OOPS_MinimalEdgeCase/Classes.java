@@ -1,4 +1,4 @@
-package Day50_OOPS;
+package Day50_OOPS_MinimalEdgeCase;
 
 public class Classes {
 	public static void change(int x) {
@@ -73,5 +73,25 @@ public class Classes {
 		System.out.println(sq.name);
 		System.out.println(sq.percent);
 		System.out.println(sq.rollno);
+
+		// final keyword use in privateStudent
+		privateStudent d4 = new privateStudent();
+//		d4.schoolName = "ab"; // cannot assign
+		System.out.println(d4.schoolName);
+
+		// static keyword use
+		StaticStudent ss1 = new StaticStudent("abc", 33, 98);
+		System.out.println(ss1.numberOfStudent);
+
+		StaticStudent ss2 = new StaticStudent("cba", 35, 99);
+		System.out.println(ss2.numberOfStudent);
+
+		StaticStudent ss3 = new StaticStudent("bba", 36, 97);
+		System.out.println(ss3.numberOfStudent);
+
+		System.out.println(StaticStudent.numberOfStudent);// call eaasily because of static intNoStudent
+//		System.out.println(StaticStudent.name); //error in name etc bcz they are not static
+		StaticStudent.numberOfStudent = 102;
+
 	}
 }
