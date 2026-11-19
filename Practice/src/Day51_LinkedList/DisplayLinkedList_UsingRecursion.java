@@ -5,7 +5,7 @@ public class DisplayLinkedList_UsingRecursion {
 	public static void display(Node head) {
 		if (head == null)
 			return;
-		System.out.print(head.data);
+		System.out.print(head.data + " ");
 		display(head.next);
 	}
 
